@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Apply for a Job Test">
+    <test  name="iLabWebsiteAutomation" >
+        <parameter name="iLabUrl" value="https://www.ilabquality.com"></parameter>
+        <parameter name="Browser" value="Chrome"></parameter>
+        <parameter name="dataStore" value="SQL"></parameter>
+        <classes>
+            <class name="webTest.jobApplicationTest"></class>
+        </classes>
+    </test>
+</suite>
