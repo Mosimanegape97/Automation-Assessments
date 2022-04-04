@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Adactin tests">
+    <test name ="Login to Adactin">
+        <parameter name="adactinURL" value="http://adactinhotelapp.com/index.php"></parameter>
+        <parameter name="Browser" value="Chrome"></parameter>
+        <parameter name="dataStore" value="SQL"></parameter>
+        <classes>
+            <class  name = "webTests.bookHotelTest"/>
+
+        </classes>
+    </test>
+</suite>
